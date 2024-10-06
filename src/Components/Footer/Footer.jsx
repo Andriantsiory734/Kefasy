@@ -7,19 +7,19 @@ const Footer = () => {
   return (
     <div
       id="Footer"
-      className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center"
+      className="flex justify-around bg-[#000000] text-white p-1 md:p-1 items-center"
     >
       <div>
-        <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
-        <h3 className="text-sm md:text-2xl font-normal">
-          Feel Free To reach out!
+        <h1 className="text-md md:text-xl font-bold"></h1>
+        <h3 className="text-sm md:text-sm font-normal">
+          Designed by Sonate Code
         </h3>
       </div>
 
-      <ul className="text-sm md:text-xl">
+      <ul className="text-sm md:text-md flex justify-between gap-5">
         <li className="flex gap-1 items-center">
           <MdOutlineEmail size={20} />
-          myemail@gmail.com
+          kefasy@gmail.com
         </li>
         <li className="flex gap-1 items-center">
           <CiLinkedin />

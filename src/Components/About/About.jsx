@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
+import AboutImg from "../../assets/about.jpg";
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
@@ -9,16 +9,16 @@ const About = () => {
     >
       <div>
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>
-        <div className="md:flex flex-wrap flex-col md:flex-row items-center">
-          <img className="md:h-80" src={AboutImg} alt="About img" />
+        <div className="md:flex flex-wrap flex-col md:flex-row items-center gap-40">
+          <img className="md:h-80 md:mx-5 rounded-full opacity-90 border-l-sky-800 border-8" src={AboutImg} alt="About img" />
 
           <ul>
             <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
+              <IoArrowForward size={30} className="mt-7" />
 
               <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Frontend developer
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal p-6 text-blue-500">
+                  Move and save the <span className="text-slate-200">planet</span> for the kids
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -30,11 +30,11 @@ const About = () => {
               </span>
             </div>
             <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
+              <IoArrowForward size={30} className="mt-7" />
 
               <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal p-6 text-blue-500">
+                  Our vehicle <span className="text-slate-200">can support</span>  a load of up to 5 tons
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -43,11 +43,11 @@ const About = () => {
               </span>
             </div>
             <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
+              <IoArrowForward size={30} className="mt-7" />
 
               <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Backend developer
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal p-6 text-blue-500">
+                  Never worry for <span className="text-slate-200">gas</span> again
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
